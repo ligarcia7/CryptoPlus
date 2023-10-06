@@ -2,21 +2,28 @@
 
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
     background-color: #5cbdb9;
     overflow: hidden;
-    margin-top: 5px;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 footer .material-symbols-outlined {
-    padding: 0px;
+    /* justify-content: space-around; */
+    /* padding: 0px; */
     background-color: #5cbdb9;
     color: snow;
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 3px 16px;
+    /* float: right; */
+    /* display: block; */
+    /* text-align: center; */
+    padding: 10px 16px;
     
+}
+a{
+    margin-left: 1em;
 }
 
