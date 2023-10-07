@@ -51,7 +51,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #339390;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -61,7 +61,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #007899;
 }
 
 /* Estilos para dispositivos móviles */
