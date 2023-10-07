@@ -57,12 +57,15 @@ padding: 20px;
 border-radius: 0 0 10px 10px;
 } */
 
-.historic-container {
+.historic-container  {
   background-color: snow; /* Optional background color */
   padding: 20px; /* Optional padding for content inside the container */
   border-radius: 0 0 10px 10px;
   }
 
+.tradingview-widget-container iframe {
+  min-height: 50vh;
+}
 
 .price-container {
 
