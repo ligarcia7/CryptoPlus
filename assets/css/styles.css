@@ -24,7 +24,7 @@ body {
     grid-template-rows: auto 1fr auto; /* Header, Body, Footer */
     max-width: 1200px; /* One-third of the screen width */
     height: 100vh; 
-    margin: 0 auto; /* Center the container horizontally */
+    margin: auto; /* Center the container horizontally */
     padding: 0px; /* Optional padding for content inside the container */
     box-sizing: border-box; /* Include padding in width calculation */
     color: #5cbdb9;
