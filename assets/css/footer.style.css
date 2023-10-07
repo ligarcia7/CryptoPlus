@@ -2,6 +2,10 @@
 
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
     background-color: #5cbdb9;
     overflow: hidden;
     margin-top: 5px;
@@ -18,5 +22,8 @@ footer .material-symbols-outlined {
     text-align: center;
     padding: 3px 16px;
     
+}
+a{
+    margin-left: 1em;
 }
 
