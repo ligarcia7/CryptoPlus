@@ -22,4 +22,6 @@ footer .material-symbols-outlined {
     padding: 3px 16px;
 
 }
-
+footer small{
+    font-size: small;
+}
