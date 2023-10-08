@@ -36,6 +36,39 @@
   .topnav .icon {
     display: none;
   }
+  
+  @media screen and (max-width:760px) {
+    
+    .topnav {
+      margin: 0;
+      padding: 0;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+    
+    /* UBICACION DEL MENÚ HAMBURGUESA */
+    .topnav .icon {
+      display: flex;
+      margin-right: 1rem;
+      margin-top: 0;
+    }
+    
+    #nav {
+      display: none;
+    }
+    
+    #nav.responsive{
+        z-index: 99;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        /* width: fit-content; */
+        position: absolute;
+        top: 50px;
+    }
+  }  
 
 
 

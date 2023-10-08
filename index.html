@@ -13,10 +13,16 @@
 
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Criptomonedas</a>
-            <a href="./pages/pricesHistoric.html">Historico</a>
-            <a href="./pages/yield.html">Calculadora Rendimientos</a>
-            <a href="./pages/contacto.html">Contacto</a>
+            <div id="nav">
+                <a href="index.html" class="active">Criptomonedas</a>
+                <a href="./pages/pricesHistoric.html">Historico</a>
+                <a href="./pages/yield.html">Calculadora Rendimientos</a>
+                <a href="./pages/contacto.html">Contacto</a>
+            </div>
+
+            <div onclick="responsiveMenu()" >
+                <img class="icon" height="20" src="./assets/svg/bars-solid.svg" alt="asd">
+            </div>
         </div>
     </header>
     <main>
@@ -28,7 +34,7 @@
         </div>
 
         <div id="ETHBTC" class="price-container">
-            <p >BTC</p>
+            <p>BTC</p>
             <p>Var Mes</p>
             <p>Var Año</p>
         </div>
@@ -48,6 +54,7 @@
 
     </footer>
 
+    <script src="assets/js/responsive.js"></script>
 </body>
 
 </html>
