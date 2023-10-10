@@ -26,9 +26,15 @@
     </header>
 
     <main>
-        <P>url ejemplo calculo rendimiento: </P>
-        <small>https://www.inchcalculator.com/widgets/w/percent-yield/</small>
-        <small>https://karvitt.com/widgets/html-code/ytm-calculator</small>
+
+      <div class="yield-calculator">
+            <label>Rendimiento Porcentual:</label>
+            <input type="number" id="precioCompra" name="precioCompra" placeholder="Precio de Compra" required>
+            <input type="number" id="precioVenta" name="precioVenta" placeholder="Precio de Venta" required>
+            <button id="botonRendimiento%" onclick="percentageYield()"> Calcular </button>
+            <label id="resultadoRendimiento"></label>
+        </div>    
+
     </main>
 
     <footer>
@@ -39,5 +45,5 @@
 
     <script src="../assets/js/responsive.js"></script>
 </body>
-
+<script src="../assets/js/yield.js"></script>
 </html>
