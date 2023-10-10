@@ -12,15 +12,22 @@
 
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="../index.html">Criptomonedas</a>
-            <a href="pricesHistoric.html">Historico</a>
-            <a href="yield.html" class="active">Calculadora Rendimientos</a>
-            <a href="contacto.html">Contacto</a>
+            <div id="nav">
+                <a href="../index.html">Criptomonedas</a>
+                <a href="pricesHistoric.html">Historico</a>
+                <a href="yield.html" class="active">Calculadora Rendimientos</a>
+                <a href="contacto.html" >Contacto</a>
+            </div>
+
+            <div id="icono-nav" onclick="responsiveMenu()">
+                <img class="icon" height="20" src="../assets/svg/bars-solid.svg" alt="asd">
+            </div>
         </div>
     </header>
 
     <main>
-        <div class="yield-calculator">
+
+      <div class="yield-calculator">
             <label>Rendimiento Porcentual:</label>
             <input type="number" id="precioCompra" name="precioCompra" placeholder="Precio de Compra" required>
             <input type="number" id="precioVenta" name="precioVenta" placeholder="Precio de Venta" required>
@@ -36,6 +43,7 @@
         </span>
     </footer>
 
+    <script src="../assets/js/responsive.js"></script>
 </body>
 <script src="../assets/js/yield.js"></script>
 </html>
