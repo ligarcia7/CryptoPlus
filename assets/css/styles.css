@@ -60,7 +60,7 @@ main {
 
 .price-container {
     width: 15vw;
-    height: 10vh; /* Esto va a haber que corregirlo cuando veamos el contenido del container */
+    /* height: 10vh; */
     background-color: snow;
     border-color: #5cbdb9;
     border-width: 1px;
