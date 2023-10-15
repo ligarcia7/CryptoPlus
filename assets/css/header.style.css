@@ -2,8 +2,6 @@
 .topnav {
     background-color: #5cbdb9;
     overflow: hidden;
-    margin-top: 30px;
-    border-radius: 10px 10px 0 0;
   }
 
   .topnav a {
@@ -31,9 +29,9 @@
   .topnav .icon {
     display: none;
   }
-  
+
   @media screen and (max-width:760px) {
-    
+
     .topnav {
       margin: 0;
       padding: 0;
@@ -42,18 +40,18 @@
       align-items: center;
       justify-content: end;
     }
-    
+
     /* UBICACION DEL MENÚ HAMBURGUESA */
     .topnav .icon {
       display: flex;
       margin-right: 1rem;
       margin-top: 0;
     }
-    
+
     #nav {
       display: none;
     }
-    
+
     #nav.responsive{
         z-index: 99;
         border-radius: 16px;
@@ -63,7 +61,7 @@
         position: absolute;
         top: 50px;
     }
-  }  
+  }
 
 
 
