@@ -44,11 +44,12 @@ main {
     /* background-color: snow;  */
     background-color: rgba(251, 227, 232, 0.1);
     padding: 1rem;
+    border-radius: 0 0 10px 10px;
     }
 
 
 .historic-container  {
-  background-color: snow;
+  background-color: rgba(251, 227, 232, 0.1);
   padding: 20px;
   border-radius: 0 0 10px 10px;
   }
