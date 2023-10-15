@@ -26,12 +26,12 @@ body {
     /* background-size: cover; */
     background-color: rgba(251, 227, 232, 0.2);
     display: grid;
-    grid-template-rows: auto 1fr auto; 
-    max-width: 1200px; 
-    height: 100vh; 
-    margin: 0 auto; 
-    padding: 0px; 
-    box-sizing: border-box; 
+    grid-template-rows: auto 1fr auto;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
     color: #5cbdb9;
     }
 
@@ -43,14 +43,14 @@ main {
     justify-content: center;
     /* background-color: snow;  */
     background-color: rgba(251, 227, 232, 0.1);
-    padding: 1rem; 
+    padding: 1rem;
     border-radius: 0 0 10px 10px;
     }
 
 
 .historic-container  {
-  background-color: snow; 
-  padding: 20px; 
+  background-color: rgba(251, 227, 232, 0.1);;
+  padding: 20px;
   border-radius: 0 0 10px 10px;
   }
 
