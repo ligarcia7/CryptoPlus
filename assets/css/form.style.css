@@ -7,6 +7,18 @@ form {
     text-align: left;
 }
 
+.p-form{
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: large;
+    padding: 1rem;
+    border: 1px solid #5cbdb9;
+    border-radius: 1rem;
+}
+
+.container{
+    align-self: center;
+}
+
 label {
     display: block;
     font-weight: bold;
