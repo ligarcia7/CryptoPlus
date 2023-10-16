@@ -58,7 +58,7 @@ const diccionario = [
 
 const mostrarData= (data)=>{
     // console.log(data);
-    
+
     let filtro = data.filter(d => diccionario.some(entry => entry.symbol === d.symbol));
 
     console.log(filtro);
@@ -71,17 +71,9 @@ const mostrarData= (data)=>{
         symbol =`<div id="ETHUSDT" class="price-container">
         <img class="coin-logo" src=${img} alt="coin-logo"/>
         <div class="row"><h3 >${filtro[i].symbol}</h3><p>Price:</p> <p> ${parseFloat(filtro[i].price).toFixed(2)}</p></div></div>`
-        
+
         document.getElementById('main').innerHTML += symbol
     }
-    
-    // let BTCUSDT = `<h4>Symbol:</h4><h3> ${filtro[0].symbol}</h3> <br> <p>Price:</p> <p> ${parseFloat(filtro[0].price).toFixed(2)}</p>`
-    // let ETHUSDT = `<h4>Symbol:</h4><h3> ${filtro[1].symbol}</h3> <br> <p>Price:</p> <p> ${parseFloat(filtro[1].price).toFixed(2)}</p>`
-    // let LTCUSDT = `<h4>Symbol:</h4><h3> ${filtro[2].symbol}</h3> <br> <p>Price:</p> <p> ${parseFloat(filtro[2].price).toFixed(2)}</p>`
-    
-    // document.getElementById('BTCUSDT').innerHTML = BTCUSDT
-    // document.getElementById('ETHUSDT').innerHTML = ETHUSDT
-    // document.getElementById('LTCUSDT').innerHTML = LTCUSDT
-}
 
-//  <img class="coin-logo" src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png" loading="lazy" alt="BTC logo"></img> 
+
+}
