@@ -1,31 +1,3 @@
-/* footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    background-color: #5cbdb9;
-    overflow: hidden;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0;
-    border-radius: 10px;
-}
-
-footer .material-symbols-outlined {
-    padding: 0px;
-    background-color: #5cbdb9;
-    color: snow;
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 3px 16px;
-
-}
-
-footer small {
-    font-size: small;
-} */
-
 footer {
     background-color: #5cbdb9;
     color: #fff;
