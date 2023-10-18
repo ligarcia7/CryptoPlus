@@ -67,6 +67,7 @@ main {
 
 .coin-logo{
   border-radius: 100rem;
+  /* max-height: 4rem; */
 }
 
 /* Create the hidden pseudo-element */
@@ -102,5 +103,13 @@ p {
     flex-direction: column;
     align-content: center;
 
+  }
+}
+
+@media screen and (min-width:720px) {
+  main{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
   }
 }
